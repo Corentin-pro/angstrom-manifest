@@ -17,7 +17,7 @@
   <project remote="github" name="openembedded/openembedded-core" path="layers/openembedded-core"/>
   <project remote="github" name="openembedded/meta-openembedded" path="layers/meta-openembedded"/>
   <project remote="github" name="openembedded/bitbake" path="bitbake"/>
-  <project remote="github" name="kraj/meta-altera" path="layers/meta-altera"/>
+  <project remote="github" name="kraj/meta-altera" path="layers/meta-altera" revision="374a62067cf5094cf177a724d1a179881d891a86"/>
   <project remote="github" name="corentin-pro/meta-angstrom" path="layers/meta-angstrom">
       <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
